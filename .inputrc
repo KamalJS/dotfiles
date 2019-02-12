@@ -5,6 +5,8 @@ set show-mode-in-prompt on
 # Enable ctrl-l when in vi editing mode
 $if mode=vi
 set keymap vi-command
+set vi-ins-mode-string "+"
+set vi-cmd-mode-string ":"
 # these are for vi-command mode
 Control-l: clear-screen
 set keymap vi-insert
